@@ -12,3 +12,5 @@ function showRandomBandit() {
     document.getElementById("bandit-photo").src = action.img;
     document.getElementById("bandit-photo").style.display = "block";
 }
+
+document.getElementById("bandit-button").addEventListener("click", showRandomBandit);
