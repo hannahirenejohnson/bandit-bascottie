@@ -35,4 +35,5 @@ button {
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: url('image/dog-pointer.png') 8 8, pointer;
 }
